@@ -295,6 +295,16 @@ p {
     outline: none;
 }
 
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
 /*contact*/
 
 .footer {
@@ -465,6 +475,7 @@ p {
     .spacer {
         padding: 2em 0 0 0;
     }
+
 
     .process ul li {
         margin-bottom: 1em;
